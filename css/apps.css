@@ -1,0 +1,1440 @@
+.apps {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.apps-list {
+  max-width: 1680px;
+  margin: auto;
+}
+
+.apps .h2 {
+  font-family: Neutraface2TextBook;
+  font-style: normal;
+}
+
+.apps .main .h2 {
+  text-align: center;
+}
+
+.apps .h3 {
+  font-size: 22px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.button-align {
+  width: 190px;
+  margin: 1% auto;
+}
+
+.error-message {
+  margin-bottom: 40px;
+}
+
+/* Slideshow Code */
+.slideshow-container {
+  width: 100%;
+  height: 526px;
+  margin: auto;
+  position: relative;
+}
+
+.overlay-text-container {
+  margin: auto;
+  width: 50%;
+  min-width: 670px;
+}
+
+.apps .main .slideshow-overlay-text {
+  color: #FFF;
+  position: absolute;
+  z-index: 99;
+  text-align: center;
+}
+
+.h2.slideshow-overlay-text {
+  font-size: 36px;
+  top: 135px;
+  width: 100%;
+}
+
+ .h3.slideshow-overlay-text {
+  top: 187px;
+  width: 100%;
+  margin: auto;
+  opacity: .80;
+}
+
+.app-content a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.overlay-cta-container {
+  width: 34.69%;
+  min-width: 444px;
+  height: 36px;
+  position: relative;
+  top: 300px;
+  margin: auto;
+  z-index: 100;
+}
+
+.overlay-cta {
+  float: left;
+  list-style: none;
+  width: 138px;
+  height: 34px;
+  border-radius: 3px;
+  border: 1px solid #FFF;
+  text-align: center;
+  color: #FFF;
+  line-height: 36px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.overlay-cta:hover {
+  background-color: #FFF;
+  color: #383838;
+}
+
+.overlay-cta:active {
+  background-color: #df9d00;
+  color: #FFF;
+  border: 1px solid #df9d00;
+}
+
+.cta-padding {
+  margin-right: 12px;
+}
+
+.slideshow-buttons input {
+  visibility: hidden;
+  width: 20px;
+}
+
+.slideshow-buttons .button-selector {
+  width: 6px;
+  height: 6px;
+  background-color:  #FFF;
+  position: absolute;
+  top: 88.70%;
+  margin-left: 45%;
+  z-index: 100;
+  cursor: pointer;
+  opacity: .40;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.slideshow-buttons input[type=radio]:checked + label {
+  opacity: 1;
+}
+
+.slideshow-buttons input[type=radio]#button-1:checked ~ .slideshow-inner>ul{
+  left: 0;
+}
+
+.slideshow-buttons input[type=radio]#button-2:checked ~ .slideshow-inner>ul{
+  left: -100%;
+}
+
+.slideshow-buttons input[type=radio]#button-3:checked ~ .slideshow-inner>ul{
+  left: -200%;
+}
+
+.slideshow-buttons input[type=radio]#button-4:checked ~ .slideshow-inner>ul {
+  left: -300%;
+}
+
+.apps .main .slideshow-inner {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow-inner .slideshow-list {
+  list-style: none;
+  height: 487px;
+  width: 500%;
+  overflow: hidden;
+  position: relative;
+  left: 0px;
+  -webkit-transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+  -moz-transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: left .8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.slideshow-inner .slideshow-image {
+  width: 20%;
+  height: 100%;
+  min-height: 526px;
+  float: left;
+  position: relative;
+
+}
+
+.slideshow_1 {
+  background: transparent url(/swift-legacy/images/default/apps/slideshow_1.jpg) no-repeat;
+}
+
+.slideshow_2 {
+  background: transparent url(/swift-legacy/images/default/apps/slideshow_2.jpg) no-repeat;
+}
+/* end slideshow code */
+li.app.sms {
+  border-bottom: 2px solid #e09d00;
+  position: relative;
+}
+
+h2.h2.accent {
+  font-size: 36px;
+}
+
+.accent {
+  font-size: 18px;
+  line-height: 24pt;
+  color: #383838;
+}
+
+.apps .quote dd {
+  margin-top: 64px;
+}
+
+/* Apple TV */
+.tvos-copy {
+  width: 28.13%;
+  margin: 85px 0 0 8.5%;
+  float: left;
+}
+
+.app .tvos {
+  margin: 50px;
+}
+
+.tvos {
+  height: 620px;
+}
+
+.apps .bestof {
+  width: 158px;
+  height: 47px;
+  margin-top: 30px;
+}
+
+.apps .tvos-image {
+  width: 60%;
+  height: 100%;
+  background: transparent url(/swift-legacy/images/default/apps/tv.png) no-repeat;
+  right: 0;
+  margin: 70px 0;
+  background-size: contain;
+  position: absolute;
+}
+
+.apps .tvos .app-content .right {
+  position: absolute;
+  right: 0;
+  width: 230px;
+  margin-top: 86px;
+}
+
+/* iPad/iPhone Section */
+.ipad {
+  height: 620px;
+}
+
+.apps .iphone .h2 {
+  margin: 205px 0 20px 0;
+  font-size: 32px;
+}
+
+.apps .ipad .app-content {
+  height: 485px;
+  padding: 70px 0;
+  background: linear-gradient(#FFF, #f5f5f5);
+}
+
+.apps .ipad .app-content .right {
+  position: absolute;
+  right: 0;
+  top: 10%;
+  width: 41.5%;
+}
+
+.apps .ipad-image {
+  width: 37.5%;
+  height: 100%;
+  max-height: 582px;
+  background: transparent url(/swift-legacy/images/default/apps/ipad_iphone.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 70px;
+  margin: 0 10.5%;
+}
+
+.apps .ipad .quote {
+  width: 80%;
+}
+
+
+.apps .app .app-content {
+  height: 526px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.apps .statements {
+  width: 547px;
+  margin: 50px auto 60px;
+}
+
+.apps .statement {
+  float: left;
+  height: 75px;
+  border-right: 1px solid #dededc;
+  padding: 0 55px;
+}
+.apps .statement .download {
+  margin: 0;
+}
+
+.apps .statement.last {
+  border-right: none medium;
+}
+
+.apps .statement dt {
+  text-align: center;
+  font-size: 18px;
+  color: #383838;
+  margin: 0 0 10px 0;
+}
+
+.apps .statement dd {
+  text-align: center;
+  font-size: 15px;
+  color: #737373;
+  line-height: 1.6;
+}
+
+.apps .quote {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #737373;
+  margin-top: 48px;
+}
+
+.apps .quote dd {
+  margin-top: 32px;
+  font-style: normal;
+  font-size: 16px;
+  color: #737373;
+}
+
+.apps .download {
+  width: 135px;
+  height: 40px;
+  background: transparent url(/swift-legacy/images/default/apps/itunes-store.png) no-repeat;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  margin-top: 32px;
+}
+
+.apps .download.android {
+  background: transparent url(/swift-legacy/images/default/apps/play-store.png) no-repeat;
+  width: 131px;
+  height: 45px;
+}
+
+.apps .app.main {
+  box-shadow: none;
+}
+
+.apps .iphone .app-content {
+  height: 700px;
+  padding: 70px 0 0 0;
+}
+
+/* Android Content */
+.apps .android .app-content {
+  height: 600px;
+  padding: 70px 0 0 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.android-copy {
+  width: 42.87%;
+  margin-left: 10.5%;
+}
+.apps .android-image {
+  width: 46.63%;
+  height: 100%;
+  background: transparent url(/swift-legacy/images/default/apps/mobile_download_android.png) no-repeat;
+  position: absolute;
+  top: 70px;
+  right: 0;
+}
+
+.apps .android .h2 {
+  margin-top: 80px;
+}
+
+.android-subheader {
+  font-family: Proxima Nova Regular;
+  font-size: 16px;
+  color: #e09d00;
+  margin: 36px 0;
+}
+
+.android-quote {
+  width: 58%;
+  line-height: 1.6em;
+}
+
+
+/* MEDIUM: iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .apps {
+    width: 100%;
+  }
+
+  .apps .main-image {
+    width: 100%;
+    height: 523px;
+    background-size: contain;
+    background-position: 50%;
+  }
+
+  .tvos {
+    height: 620px;
+  }
+
+  h2.h2.accent {
+    font-size: 28px;
+  }
+
+  .tvos-copy {
+    width: 37.5%;
+    margin: 10% 0 0 2.5%;
+  }
+
+  .accent {
+    margin: 15px 22px 0 0;
+  }
+
+  .apps .tvos .app-content .right {
+    right: 2%;
+    margin-top: 5%;
+  }
+  .apps .tvos-image {
+    width: 60%;
+    height: 100%;
+    background-position-y: 30%;
+    -webkit-clip-path: inset(0 16% 0 0);
+  }
+
+  .apps .quote {
+    width: 90%;
+  }
+
+  .apps .ipad .app-content {
+    padding-top: 48px;
+  }
+
+  .apps .ipad .app-content .right {
+    width: 45%;
+  }
+
+  .apps .ipad-image {
+    margin: 0 2.5%;
+    width: 45%;
+  }
+
+  .apps .ipad .quote {
+    width: 300px;
+  }
+
+  .android-copy {
+    width: 39%;
+    margin-left: 2.5%;
+  }
+
+  .android-quote {
+    width: 100%;
+  }
+
+  .apps .android-image {
+    width: 58%;
+    max-height: 486px;
+    right: 2%;
+    background-size: contain;
+  }
+  /* Features Carousel */
+  li.app.features {
+    width: 718px;
+    height: 620px;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  h2.h2.features {
+    margin-bottom: 30px;
+  }
+
+  .features-arrows {
+    float: left;
+    width: 17px;
+    padding: 25% 0 0;
+    background: transparent;
+    border: 0;
+    display: inline;
+  }
+
+  .features-left-arrow {
+    margin-right: 28px;
+  }
+
+  .features-slideshow-buttons {
+    padding-top: 10px;
+    width: 24px;
+    margin: auto;
+  }
+
+  #features-button-1, #features-button-2 {
+    visibility: visible;
+  }
+
+  .features-button-selector {
+    color: #cecece;
+    float: left;
+    margin-right: 3px;
+    font-size: 25px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .features-button-selected {
+    color: #383838;
+  }
+
+  .show-features-2-3 {
+    left: -50% !important;
+  }
+
+  .features-slideshow-wrapper {
+    width: 656px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .features-container {
+    width: 1192px;
+    position: relative;
+    left: 0;
+    transition: left .6s ease-out;
+    list-style: none;
+    overflow: hidden;
+  }
+}
+/* NARROW */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .apps {
+    width: 100%;
+  }
+
+  .apps .main-image {
+    width: 100%;
+    height: 523px;
+    background-size: contain;
+    background-position: 50%;
+  }
+
+  .app .main {
+    height: 467px;
+  }
+
+  .overlay-cta-container {
+    top: 350px;
+  }
+
+  .slideshow-buttons .button-selector {
+    top: 90%;
+    margin-left: 44%;
+  }
+
+  .apps .statements {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: block;
+  }
+
+  .apps .statement {
+    padding: 5px;
+    border: none;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .tvos-copy {
+    width: 95%;
+    margin: auto;
+    float: none;
+  }
+
+  .apps .quote {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .apps .download {
+    margin: 20px 10px 0;
+  }
+
+  .h2 .accent {
+    margin-bottom: 10px;
+    padding-left: 50%;
+    text-align: center;
+  }
+
+  .apps .app .app-content {
+    margin: 5% auto;
+    padding-bottom: 30px;
+  }
+
+  .apps .tvos .app-content .right {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .tvos {
+    height: auto;
+    font-size: 18px;
+  }
+
+  .apps .tvos .accent {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .apps .quote dd {
+    position: relative;
+    top: 323px;
+  }
+
+  .apps .tvos-image {
+    margin: 5% auto;
+    width: 98%;
+    height: auto;
+    min-height: 300px;
+    background-size: contain;
+    background-position: 50%;
+    position: relative;
+    top: -158px;
+  }
+
+  .apps .bestof {
+    position: relative;
+    top: 300px;
+    display: block;
+    margin: 30px auto;
+  }
+
+  .ipad {
+    height: auto;
+  }
+
+  .apps .ipad-image {
+    width: 100%;
+    background-size: contain;
+    background-position-x: 50%;
+    margin: auto;
+    top: 0;
+    position: relative;
+    height: auto;
+    min-height: 393px;
+  }
+
+  .apps .ipad .app-content {
+    height: auto;
+  }
+
+  .apps .ipad .app-content .right {
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .apps .ipad .h2 {
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+
+  .apps .ipad .quote {
+    width: 375px;
+    margin: 0 auto;
+    height: 100px;
+  }
+
+  /* Features Carousel
+
+  li.app.features {
+    width: 718px;
+    height: 610px;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  h2.h2.features {
+    margin-bottom: 30px;
+  }
+
+  .features-arrows {
+    float: left;
+    width: 17px;
+    padding: 25% 0 0;
+    background: transparent;
+    border: 0;
+    display: inline;
+  }
+
+  .features-left-arrow {
+    margin-right: 28px;
+  }
+
+  .features-slideshow-buttons {
+    padding-top: 10px;
+    width: 24px;
+    margin: auto;
+    visibility: visible;
+  }
+
+  .features-slideshow-buttons .features-button-selector {
+    visibility: visible;
+  }
+
+  .features-button-selector {
+    color: #cecece;
+    float: left;
+    margin-right: 3px;
+    font-size: 25px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .features-button-selected {
+    color: #383838;
+  }
+
+  .show-features-2-3 {
+    left: -100% !important;
+  }
+
+  .features-slideshow-wrapper {
+    width: 656px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .features-container {
+    width: 1192px;
+    position: relative;
+    left: 0;
+    transition: left .6s ease-out;
+    list-style: none;
+    overflow: hidden;
+  }*/
+
+  .apps .android .app-content {
+    padding: 50px 0 0 0;
+    height: 750px;
+  }
+
+  .android-subheader {
+    text-align: center;
+  }
+
+  .apps .android .quote .accent {
+    padding-right: 5%;
+  }
+
+  .apps .android .h2 {
+    margin: 395px auto 10px;
+    text-align: center;
+  }
+
+  .apps .android-image {
+    width: 100%;
+    height: auto;
+    min-height: 372px;
+    background-size: contain;
+    background-position: 50%;
+    position: absolute;
+    top: 10px;
+    margin: auto;
+  }
+
+  .android-copy {
+    margin: 0;
+    width: 100%;
+  }
+
+  .android-quote {
+    width: 58%;
+    margin: auto;
+    text-align: center;
+  }
+
+  a.download.app-center {
+    margin: 30px auto;
+    display: block;
+  }
+}
+
+/* Features Breakpoint 1 */
+@media only screen and (min-width: 656px) and (max-width: 767px) {
+  li.app.features {
+    width: 718px;
+    height: 610px;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  h2.h2.features {
+    margin-bottom: 30px;
+  }
+
+  .features-arrows {
+    float: left;
+    width: 17px;
+    padding: 25% 0 0;
+    background: transparent;
+    border: 0;
+    display: inline;
+  }
+
+  .features-left-arrow {
+    margin-right: 28px;
+  }
+
+  .features-slideshow-buttons {
+    padding-top: 10px;
+    width: 24px;
+    margin: auto;
+    visibility: visible;
+  }
+
+  .features-slideshow-buttons .features-button-selector {
+    visibility: visible;
+  }
+
+  .features-button-selector {
+    color: #cecece;
+    float: left;
+    margin-right: 3px;
+    font-size: 25px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .features-button-selected {
+    color: #383838;
+  }
+
+  .show-features-2-3 {
+    left: -100% !important;
+  }
+
+  .features-slideshow-wrapper {
+    width: 656px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .features-container {
+    width: 1192px;
+    position: relative;
+    left: 0;
+    transition: left .6s ease-out;
+    list-style: none;
+    overflow: hidden;
+  }
+}
+/* Features Breakpoint 1 */
+@media only screen and (max-width: 655px) {
+  li.app.features {
+    width: 93.34%;
+    height: 560px;
+    margin: 0 3.33%;
+  }
+
+  #features .app-content {
+    width: 418px;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  h2.h2.features {
+    margin-bottom: 30px;
+  }
+
+  .features-div {
+    width: 373px;
+    margin: auto;
+  }
+
+  .features-arrows {
+    float: left;
+    width: 17px;
+    margin-top: 100px;
+    background: transparent;
+    border: 0;
+    display: inline;
+  }
+
+  .features-left-arrow {
+    margin-right: 15px;
+  }
+
+  .features-slideshow-buttons {
+    padding-top: 10px;
+    width: 36px;
+    margin: auto;
+  }
+
+  .features-slideshow-buttons .features-button-selector {
+    visibility: visible;
+  }
+
+  .features-button-selector {
+    color: #cecece;
+    float: left;
+    margin-right: 3px;
+    font-size: 25px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .features-button-selected {
+    color: #383838;
+  }
+
+  .show-features-2-3 {
+    left: -100% !important;
+  }
+
+  .features-slideshow-wrapper {
+    width: 328px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .features-container {
+    width: 1192px;
+    position: relative;
+    left: 0;
+    transition: left .6s ease-out;
+    list-style: none;
+    overflow: hidden;
+  }
+}
+/* TINY: iphone Portrait */
+@media only screen and (min-width: 386px) and (max-width: 479px) {
+  .apps {
+    width: 100%;
+  }
+
+  .apps .main-image {
+    width: 100%;
+    height: 523px;
+    background-size: contain;
+    background-position: 50%;
+  }
+
+  .app .main {
+    height: 467px;
+  }
+
+  .h2.slideshow-overlay-text {
+    font-size: 28px;
+  }
+
+  .h3.slideshow-overlay-text {
+    color: #FFF;
+    font-size: 16px;
+  }
+
+  .overlay-cta-container {
+    top: 330px;
+    min-width: 386px;
+  }
+
+  .overlay-cta {
+    float: none;
+    margin: 0 auto 10px;
+    width: 222px;
+  }
+
+  .slideshow-buttons .button-selector {
+    top: 90%;
+    margin-left: 37%;
+  }
+
+  .apps .statements {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: block;
+  }
+
+  .apps .statement {
+    padding: 5px;
+    border: none;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .tvos-copy {
+    width: 95%;
+    margin: auto;
+    float: none;
+  }
+
+  .apps .quote {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .apps .download {
+    margin: 20px 10px 0;
+  }
+
+  h2.h2.accent {
+    font-size: 18px;
+  }
+
+  .h2 .accent {
+    margin-bottom: 10px;
+    padding-left: 50%;
+    text-align: center;
+  }
+
+  .apps .app .app-content {
+    margin: 5% auto;
+    padding-bottom: 30px;
+    height: 547px;
+  }
+
+  .apps .tvos .app-content .right {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .tvos {
+    width: 93.34%;
+    height: 594px;
+    margin: 0 3.33%;
+    font-size: 18px;
+  }
+
+  .apps .tvos .accent {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .apps .quote dd {
+    position: relative;
+    top: 285px;
+  }
+
+  .apps .quote .accent {
+    font-size: 15px;
+  }
+
+  .apps .tvos-image {
+    margin: 5% auto;
+    width: 98%;
+    height: auto;
+    min-height: 300px;
+    background-size: contain;
+    background-position: 50%;
+    position: relative;
+    top: -158px;
+  }
+
+  .apps .bestof {
+    position: relative;
+    top: 300px;
+    display: block;
+    margin: 30px auto;
+  }
+
+  .ipad {
+    height: auto;
+  }
+
+  .apps .ipad-image {
+    width: 100%;
+    background-size: contain;
+    background-position-x: 50%;
+    margin: auto;
+    top: 0;
+    position: relative;
+    height: auto;
+    min-height: 393px;
+  }
+
+  .apps .ipad .app-content {
+    width: 93.34%;
+    margin: 0 3.33%;
+    height: auto;
+  }
+
+  .apps .ipad .app-content .right {
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .apps .ipad .h2 {
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+
+  .apps .ipad .quote {
+    width: 100%;
+    margin: 0 auto;
+    height: 100px;
+  }
+
+  .apps .android .app-content {
+    padding: 50px 0 0 0;
+    height: 750px;
+  }
+
+  .apps .android .quote .accent {
+    padding-right: 5%;
+  }
+
+  .apps .android .h2 {
+    margin: 395px auto 10px;
+    text-align: center;
+  }
+
+  .apps .android-image {
+    width: 100%;
+    height: auto;
+    min-height: 372px;
+    background-size: contain;
+    background-position: 50%;
+    position: absolute;
+    top: 10px;
+    margin: auto;
+  }
+
+  .android-copy {
+    margin: 0;
+    width: 100%;
+  }
+
+  .android-quote {
+    width: 58%;
+    margin: auto;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .android-subheader {
+    text-align: center;
+  }
+
+  a.download.app-center {
+    margin: 30px auto;
+    display: block;
+  }
+}
+/* TINY: Max */
+@media only screen and (max-width: 385px) {
+.apps {
+    width: 100%;
+  }
+
+  .apps .main-image {
+    width: 100%;
+    height: 523px;
+    background-size: contain;
+    background-position: 50%;
+  }
+
+  .app .main {
+    height: 467px;
+  }
+
+  .overlay-cta-container {
+    top: 330px;
+    min-width: 320px;
+  }
+
+  .h2.slideshow-overlay-text {
+    font-size: 30px;
+  }
+
+  .h3.slideshow-overlay-text {
+    top: 160px;
+    font-size: 20px;
+  }
+
+  .overlay-cta {
+    float: none;
+    margin: 0 auto 10px;
+  }
+
+  .slideshow-buttons .button-selector {
+    top: 98%;
+    margin-left: 40%;
+  }
+
+  .apps .statements {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: block;
+  }
+
+  .apps .statement {
+    padding: 5px;
+    border: none;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .tvos-copy {
+    width: 95%;
+    margin: auto;
+    float: none;
+  }
+
+  .apps .quote {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .apps .download {
+    margin: 20px 10px 0;
+  }
+
+  .h2 .accent {
+    margin-bottom: 10px;
+    padding-left: 50%;
+    text-align: center;
+  }
+
+  .apps .app .app-content {
+    margin: 5% auto;
+    padding-bottom: 30px;
+  }
+
+  .apps .tvos .app-content .right {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .tvos {
+    height: auto;
+    font-size: 18px;
+  }
+
+  .apps .tvos .accent {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .apps .quote dd {
+    position: relative;
+    top: 323px;
+  }
+
+  .apps .tvos-image {
+    margin: 5% auto;
+    width: 98%;
+    height: auto;
+    min-height: 300px;
+    background-size: contain;
+    background-position: 50%;
+    position: relative;
+    top: -158px;
+  }
+
+  .apps .bestof {
+    position: relative;
+    top: 300px;
+    display: block;
+    margin: 30px auto;
+  }
+
+  .ipad {
+    height: auto;
+  }
+
+  .apps .ipad-image {
+    width: 100%;
+    background-size: contain;
+    background-position-x: 50%;
+    margin: auto;
+    top: 0;
+    position: relative;
+    height: auto;
+    min-height: 393px;
+  }
+
+  .apps .ipad .app-content {
+    height: auto;
+  }
+
+  .apps .ipad .app-content .right {
+    position: relative;
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .apps .ipad .h2 {
+    margin: 0 auto 10px;
+    text-align: center;
+  }
+
+  .apps .ipad .quote {
+    width: 375px;
+    margin: 0 auto;
+    height: 100px;
+  }
+
+  /* Features Carousel */
+
+  #features .app-content {
+    width: 418px;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  h2.h2.features {
+    margin-bottom: 30px;
+  }
+
+  .features-arrows {
+    float: left;
+    width: 17px;
+    padding: 25% 0 0;
+    background: transparent;
+    border: 0;
+    display: inline;
+  }
+
+  .features-left-arrow {
+    margin-right: 28px;
+  }
+
+  .features-slideshow-buttons {
+    padding-top: 10px;
+    width: 81px;
+    margin: auto;
+  }
+
+  .features-slideshow-buttons .features-button-selector {
+    visibility: visible;
+  }
+
+  .features-button-selector {
+    color: #cecece;
+    float: left;
+    margin-right: 3px;
+    font-size: 25px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .features-button-selected {
+    color: #383838;
+  }
+
+  .show-features-2-3 {
+    left: -100% !important;
+  }
+
+  .features-slideshow-wrapper {
+    width: 328px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .features-container {
+    width: 1192px;
+    position: relative;
+    left: 0;
+    transition: left .6s ease-out;
+    list-style: none;
+    overflow: hidden;
+  }
+
+  .apps .android .app-content {
+    padding: 50px 0 0 0;
+    height: 750px;
+  }
+
+  .apps .android .quote .accent {
+    padding-right: 5%;
+  }
+
+  .apps .android .h2 {
+    margin: 395px auto 10px;
+    text-align: center;
+  }
+
+  .apps .android-image {
+    width: 100%;
+    height: auto;
+    min-height: 372px;
+    background-size: contain;
+    background-position: 50%;
+    position: absolute;
+    top: 10px;
+    margin: auto;
+  }
+
+  .android-copy {
+    margin: 0;
+    width: 100%;
+  }
+
+  .android-quote {
+    width: 58%;
+    margin: auto;
+    text-align: center;
+  }
+
+  a.download.app-center {
+    margin: 30px auto;
+    display: block;
+  }
+}
+

@@ -1,0 +1,131 @@
+
+/* Features Section */
+
+.features-slideshow-wrapper {
+  padding-bottom: 38px;
+}
+
+.features-container {
+  margin: auto;
+  width: 956px;
+  height: 400px;
+}
+
+h2.h2.features {
+  font-size: 36px;
+  text-align: center;
+  margin: 85px 0 64px 0;
+}
+
+.features-spacing {
+  margin-right: 28px;
+}
+
+.features-content {
+  width: 298px;
+  height: 398px;
+  border: 1px solid #e09d00;
+  float: left;
+}
+
+.features-img {
+  border-bottom: 1px solid #e09d00;
+}
+
+.features-copy {
+  font-family: Neutraface2TextBook;
+  font-style: normal;
+  margin: 30px 16px 0;
+}
+
+.features-hdr {
+  font-size: 22px;
+}
+
+.features-subcopy {
+  font-size: 18px;
+  color: #737373;
+  margin-top: 20px;
+  line-height: 24px;
+}
+
+.features-arrows {
+  display: none;
+}
+
+.features-slideshow-buttons {
+  visibility: hidden;
+}
+
+
+/* MEDIUM: iPad */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+  /* Features Carousel */
+  li.app.features {
+    width: 718px;
+    height: 620px;
+    overflow: hidden;
+    margin: auto;
+  }
+
+  h2.h2.features {
+    margin-bottom: 30px;
+  }
+
+  .features-arrows {
+    float: left;
+    width: 17px;
+    padding: 25% 0 0;
+    background: transparent;
+    border: 0;
+    display: inline;
+  }
+
+  .features-left-arrow {
+    margin-right: 28px;
+  }
+
+  .features-slideshow-buttons {
+    padding-top: 10px;
+    width: 24px;
+    margin: auto;
+  }
+
+  #features-button-1, #features-button-2 {
+    visibility: visible;
+  }
+
+  .features-button-selector {
+    color: #cecece;
+    float: left;
+    margin-right: 3px;
+    font-size: 25px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
+  .features-button-selected {
+    color: #383838;
+  }
+
+  .show-features-2-3 {
+    left: -50% !important;
+  }
+
+  .features-slideshow-wrapper {
+    width: 656px;
+    float: left;
+    overflow: hidden;
+  }
+
+  .features-container {
+    width: 1192px;
+    position: relative;
+    left: 0;
+    transition: left .6s ease-out;
+    list-style: none;
+    overflow: hidden;
+  }
+}
